@@ -10,7 +10,7 @@ import org.junit.Test;
 public class RectangleTest {
 
     @Test
-    public void testRectangle(){
+    public void testRectangleArea(){
         Rectangle r = new Rectangle(2, 3);
         Assert.assertEquals(6, r.calculateArea());
     }

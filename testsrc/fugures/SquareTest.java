@@ -7,7 +7,7 @@ import org.junit.Assert;
 public class SquareTest {
 
     @Test
-    public void testSquare(){
+    public void testSquareArea(){
         Square sq = new Square(2);
         Assert.assertEquals(4, sq.calculateArea());
     }
